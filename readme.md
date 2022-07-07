@@ -2,7 +2,13 @@
 
 ## Usage
 
-Test all benchmarks:
+Test all benchmarks on default version(scala=2.12.16, scala_native=0.4.5-SNAPSHOT):
+
+```
+benchmarkNative
+```
+
+Test all benchmarks in designated scala-native version and scala version:
 
 ```
 benchmarkNative --scala SCALA_VERSION --scala-native NATIVE_VERSION
@@ -36,4 +42,4 @@ The benchmark lists present below:
 ```
 
 ## Note
-The script can only be run in linux or WSL. The script is tested in WSL.
+The script can only be run in linux or WSL. The script is tested in WSL. We test our code in sbt 1.4.7.
