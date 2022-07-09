@@ -39,6 +39,10 @@ The benchmark lists present below:
 [12] permute.PermuteBenchmark
 [13] queens.QueensBenchmark
 [14] richards.RichardsBenchmark
+[15] rsc.RscBenchmark
+[16] rsc.cli.Main
+[17] sudoku.SudokuBenchmark
+[18] tracer.TracerBenchmark
 ```
 
 ## Note

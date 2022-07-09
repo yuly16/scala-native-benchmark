@@ -69,7 +69,7 @@ benchmark_format_string=$(create_benchmark_format_string)
 # echo $benchmark_format_string
 sed -i "s/MAINCLASS-LIST-TEMPLATE/$benchmark_format_string/g" build.sbt
 # phase 3: test our benchmark
-sbt measureLink
+env JAVA_OPTS="-Xmx4G" sbt measureLink
 
 # phase 4: clean the generated scala file
 # rm -r target
